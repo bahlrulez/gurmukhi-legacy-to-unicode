@@ -1,0 +1,49 @@
+{
+  "name": "gurmukhi-legacy-to-unicode",
+  "version": "1.0.0",
+  "description": "Zero-dependency TypeScript converter between legacy Gurmukhi Punjabi fonts (Asees, AnmolLipi, Satluj, Joy) and Unicode, including consecutive-Sihari state-machine handling.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "gurmukhi",
+    "punjabi",
+    "unicode",
+    "asees",
+    "anmollipi",
+    "satluj",
+    "joy",
+    "sihari",
+    "font-converter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahlrulez/gurmukhi-legacy-to-unicode.git"
+  },
+  "homepage": "https://www.converterforall.com/asees-to-unicode",
+  "bugs": {
+    "url": "https://github.com/bahlrulez/gurmukhi-legacy-to-unicode/issues"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.0"
+  }
+}
